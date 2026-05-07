@@ -1,14 +1,20 @@
 # Deck Builder, In A More Human Voice
 
-Dear reader, have you ever opened a folder and felt your shoulders tighten because the thing inside it was not work, exactly, but sediment?
+Fellow AI enabler, you know that feeling when you get assigned to create a presentation deck, which you loath doing, and feel it's beneath you to do it, but you have to anyway?
+
+Your shoulders unconsciously tighten. You have an existing workspace but inside it was not work, exactly, but sediments of work? Sound familiar?
 
 Old decks. Half-used templates. A PDF someone swore was important. Screenshots with names like `final_final_v3_REAL`. A PowerPoint that contains one perfect slide and thirty-seven tiny crimes against the nervous system. You know the feeling. The jaw goes a little hard. The breath gets shallow. Somewhere in the body, a small administrative death occurs.
 
-This workspace is an attempt to make that not happen.
+Sounding familiar now?
 
-Deck Builder is a way of making slide decks with an AI agent without asking the agent to hold the whole mess in its head. The folder structure carries the memory. The files carry the state. The human stays in the chair where judgment belongs.
+Well, dear reader, this workspace is an attempt to make that not happen, and let you dictate what gets made like, one would hope, a benevolent and reluctant dictator.
 
-That is the point.
+Deck Builder is a way of making slide decks with an AI agent without asking the agent to hold the whole mess in its head. Cause lets face it, neither can you. The folder structure carries the memory. The files carry the state. Just as we were taught. The human stays in the chair where judgment belongs. Built using our shared teaching: Interpretable Context Methodology.
+
+I'm sharing it as a practical reference implementation for the community. Clone it, adapt it, use it for your own deck workflows or as a pattern for adjacent agentic work. I'd especially value constructive feedback on the stage design, source-handling rules, archive/reuse loop, and whether the structure feels clear enough for another builder to extend without needing me in the room.
+
+I'm particularly wondering if I over engineered it. Left it generic intentionally so you can personalise it with your own skills and etc etc. You know the spiel.
 
 ## The Method Underneath
 
