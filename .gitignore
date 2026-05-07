@@ -1,0 +1,15 @@
+# Claude Code local settings
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Endpoint DLP metadata files
+*.endpointdlp
+*:sec.*
