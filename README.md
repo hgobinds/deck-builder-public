@@ -1,4 +1,4 @@
-# Deck Builder
+# Deck Builder — humans, start with the human version: [README.gobind.md](https://github.com/hgobinds/deck-builder-public/blob/main/README.gobind.md)
 
 Deck Builder is a workspace for producing professional slide decks from rough briefs, source material, reusable templates, and stable reference assets.
 
