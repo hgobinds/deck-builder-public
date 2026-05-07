@@ -40,6 +40,149 @@ Then comes the argument. Then the storyboard. Then design. Then the actual Power
 
 Finally, when the deck has done its job, it gets archived. Not embalmed. Curated. The useful parts survive. The rest can die peacefully.
 
+## How It Works, Cybernetically
+
+The system is a loop, not a chute.
+
+The human brings intent. The folders hold state. The agent reads only the context it needs. The output becomes visible. The human corrects it. The correction becomes the next input. Around and around. Not infinite, not mystical, just recursive enough to keep the work alive.
+
+```text
+┌──────────────────────────────────────────────────────────────────────┐
+│                         DECK BUILDER SYSTEM                          │
+│             folder structure as agent architecture                    │
+└──────────────────────────────────────────────────────────────────────┘
+
+                              human intent
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  01_intake/       │
+                        │  audience         │
+                        │  decision         │
+                        │  desired action   │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  02_sources/      │
+                        │  approved claims  │
+                        │  saved evidence   │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  03_narrative/    │
+                        │  argument arc     │
+                        │  tension          │
+                        │  ask              │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  04_storyboard/   │
+                        │  one job/slide    │
+                        │  dependencies     │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  05_design/       │
+                        │  visual system    │
+                        │  template rules   │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  06_build/        │
+                        │  .pptx + notes    │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  07_QA/           │
+                        │  visual audit     │
+                        │  source audit     │
+                        │  text audit       │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  08_handoff/      │
+                        │  final package    │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                        ┌───────────────────┐
+                        │  09_archive/      │
+                        │  reusable memory  │
+                        └─────────┬─────────┘
+                                  │
+                                  ▼
+                  ┌────────────────────────────────┐
+                  │ _registry/reusable-patterns.md │
+                  │ _registry/decks-index.md       │
+                  │ _registry/archive-log.md       │
+                  └───────────────┬────────────────┘
+                                  │
+                                  │ feedback into future projects
+                                  ▼
+                            human intent
+```
+
+The agent is not the system. The agent is inside the system. That distinction matters. Otherwise we start worshipping the soft black box and forget that the actual intelligence is distributed across user intent, source material, stage boundaries, file state, review, and memory.
+
+```text
+                    ┌────────────────────────────┐
+                    │        HUMAN REVIEW         │
+                    │  approve / correct / stop   │
+                    └──────────────┬─────────────┘
+                                   │
+                                   ▼
+┌──────────────┐     reads     ┌──────────────┐     writes    ┌──────────────┐
+│ CONTEXT.md   │ ────────────▶ │    AGENT     │ ────────────▶ │ output/*.md  │
+│ what to load │               │              │               │ visible work │
+│ what to skip │ ◀──────────── │              │ ◀──────────── │ editable     │
+└──────────────┘   constraints └──────────────┘   correction  └──────────────┘
+
+        ▲                                                        │
+        │                                                        ▼
+        └────────────── next stage only after approval ──────────┘
+```
+
+In cybernetic terms, the workspace gives the work perception, correction, and memory. Without those, an agent is just producing. With them, it can participate in a governed loop.
+
+```text
+               CYBERNETIC LOOP
+
+        ┌──────────────┐
+        │   purpose    │
+        │ audience/ask │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │   action     │
+        │ agent output │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │ perception   │
+        │ human review │
+        │ QA / sources │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │ correction   │
+        │ revise stage │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │   memory     │
+        │ archive/reg  │
+        └──────┬───────┘
+               │
+               └────────── feeds the next purpose
+```
+
 ## The Rooms In The House
 
 `active/` is where living projects go. If a deck is currently being made, it belongs here, warm and slightly chaotic.
